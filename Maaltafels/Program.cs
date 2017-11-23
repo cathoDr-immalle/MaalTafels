@@ -10,6 +10,21 @@ namespace Maaltafels
     {
         static void Main(string[] args)
         {
+            for (int i = 1; i <= 50; i++)
+            {
+
+                Console.WriteLine("De Maaltafels van " + i+ ":");
+
+                for(int p = 1; p <= 10; p++ )
+                {
+                    Console.WriteLine(i * p);
+                }
+
+                Console.WriteLine();
+
+            }
+
+            Console.Read();
         }
     }
 }
